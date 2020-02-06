@@ -1,0 +1,38 @@
+{
+  "name": "letyouknow",
+  "version": "0.0.0",
+  "description": "A highly configurable message broker supporting a plethora of delivering mechanisms",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha -b --no-diff test/*.js",
+    "coverage": "nyc -r html -r text-summary mocha -b --no-diff test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/GCSBOSS/letyouknow.git"
+  },
+  "keywords": [
+    "message",
+    "broker",
+    "rest",
+    "events",
+    "publish",
+    "webhook",
+    "route",
+    "notification",
+    "queue"
+  ],
+  "author": "Guilherme C. Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/GCSBOSS/letyouknow/issues"
+  },
+  "homepage": "https://gitlab.com/GCSBOSS/letyouknow#readme",
+  "bin": {
+    "letyouknow": "bin/letyouknow.js"
+  },
+  "dependencies": {
+    "muhb": "^3.0.0",
+    "nodecaf": "^0.7.10"
+  }
+}
