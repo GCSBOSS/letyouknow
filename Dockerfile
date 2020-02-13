@@ -1,13 +1,13 @@
 FROM 'node:13-alpine'
 ENV NODE_ENV production
 
-EXPOSE 80
+EXPOSE 9876
 
-WORKDIR /usr/src/app
+WORKDIR /letyouknow
 
 RUN addgroup -g 2000 -S letyouknow && \
     adduser -u 2000 -S letyouknow -G letyouknow && \
-    chown letyouknow:letyouknow /usr/src/app
+    chown letyouknow:letyouknow /letyouknow
 
 USER letyouknow
 

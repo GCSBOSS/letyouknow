@@ -4,8 +4,10 @@ const { EventEmitter } = require('events');
 const { context } = require('muhb');
 const init = require('../lib/main');
 
+process.env.NODE_ENV = 'testing';
+
 let
-    app, base = context('http://localhost:80'),
+    app, base = context('http://localhost:9876'),
     gotHook = new EventEmitter(),
     mockServer = http.createServer(function(req, res){
         gotHook.emit(req.url);
