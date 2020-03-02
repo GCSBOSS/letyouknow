@@ -1,6 +1,6 @@
 {
   "name": "letyouknow",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A highly configurable message broker supporting a plethora of delivering mechanisms",
   "main": "lib/main.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "letyouknow": "bin/letyouknow.js"
   },
   "dependencies": {
-    "muhb": "^3.0.0",
-    "nodecaf": "^0.8.1"
+    "muhb": "^3.0.1",
+    "nodecaf": "^0.8.5"
   }
 }
