@@ -1,6 +1,6 @@
 {
   "name": "letyouknow",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A highly configurable message broker supporting a plethora of delivering mechanisms",
   "main": "lib/main.js",
   "scripts": {
@@ -28,11 +28,9 @@
     "url": "https://gitlab.com/GCSBOSS/letyouknow/issues"
   },
   "homepage": "https://gitlab.com/GCSBOSS/letyouknow#readme",
-  "bin": {
-    "letyouknow": "bin/letyouknow.js"
-  },
   "dependencies": {
     "muhb": "^3.0.1",
-    "nodecaf": "^0.8.5"
+    "nodecaf": "^0.9.1",
+    "nodecaf-run": "0.0.2"
   }
 }
